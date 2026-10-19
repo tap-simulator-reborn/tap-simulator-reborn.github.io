@@ -38,6 +38,74 @@ jobs:
       - run: npm run typecheck
       - run: npm run lint
       - run: npm run build
+      - name: Responsive browser QA — desktop, tablet, mobile
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm install --no-save --package-lock=false playwright@1.56.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --directory out >/dev/null 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          sleep 2
+          node <<'JS'
+          const { chromium } = require('playwright');
+          (async () => {
+            const browser = await chromium.launch({ headless: true });
+            const paths = ['/', '/codes/', '/halloween-event/', '/how-to-get-candy-corn/', '/volcano-island/', '/trading-status/'];
+            const variants = [{name:'desktop',width:1440,height:900},{name:'tablet',width:820,height:1000},{name:'mobile',width:390,height:844}];
+            for (const device of variants) {
+              const page = await browser.newPage({ viewport:{width:device.width,height:device.height}, deviceScaleFactor:1, isMobile:device.name==='mobile', hasTouch:device.name==='mobile' });
+              const errors=[];
+              page.on('pageerror', e => errors.push(e.message));
+              for (const path of paths) {
+                const response = await page.goto('http://127.0.0.1:4173'+path,{waitUntil:'domcontentloaded',timeout:30000});
+                if (!response || response.status()!==200) throw Error(device.name+' '+path+' HTTP '+response?.status());
+                await page.evaluate(() => document.fonts.ready);
+                const data = await page.evaluate(() => ({
+                  width:innerWidth,scrollWidth:document.documentElement.scrollWidth,
+                  h1:document.querySelectorAll('main h1').length,
+                  title:document.title,description:document.querySelector('meta[name="description"]')?.content,
+                  canonical:document.querySelector('link[rel="canonical"]')?.href,
+                  mainWords:document.querySelector('main')?.innerText?.split(/\s+/).length||0,
+                  placeholder:document.body.innerText.includes('Current Tap Simulator: Reborn guides and reference information will be published here.'),
+                  heroImage:(document.querySelector('.wiki-hero-cover img')||document.querySelector('.wiki-site-info img'))?.naturalWidth,
+                  css: getComputedStyle(document.body).fontFamily,
+                  jsLinks:[...document.querySelectorAll('a[href]')].filter(a=>a.getAttribute('href')==='#').length
+                }));
+                if (data.scrollWidth>data.width+3) throw Error(device.name+' '+path+' OVERFLOW '+data.scrollWidth+'/'+data.width);
+                if (data.h1!==1 || !data.description || !data.title || !data.canonical) throw Error(device.name+' '+path+' SEO '+JSON.stringify(data));
+                if (data.mainWords<500) throw Error(device.name+' '+path+' thin rendered content: '+data.mainWords);
+                if (data.placeholder) throw Error(device.name+' '+path+' old placeholder');
+                if (path==='/' && !data.heroImage) throw Error(device.name+' homepage image missing');
+                if (errors.length) throw Error(device.name+' '+path+' client errors: '+errors.join('; '));
+                if (path==='/' || path==='/codes/') await page.screenshot({path:process.env.RUNNER_TEMP+'/tap-'+device.name+'-'+(path==='/'?'home':'codes')+'.png'});
+                console.log('Responsive PASS '+device.name+' '+path+' width='+data.width+' words='+data.mainWords);
+              }
+              if (device.name!=='desktop') {
+                await page.goto('http://127.0.0.1:4173/');
+                const toggle=page.getByRole('button',{name:'Open navigation'});
+                await toggle.click();
+                if (await page.getByRole('navigation',{name:'Primary navigation'}).getByRole('link').count()<5) throw Error(device.name+' mobile navigation broken');
+              }
+              await page.close();
+            }
+            const rob=await fetch('http://127.0.0.1:4173/robots.txt');
+            const map=await fetch('http://127.0.0.1:4173/sitemap.xml');
+            if(rob.status!==200||map.status!==200) throw Error('robots or sitemap not 200');
+            const text=await map.text();
+            if(paths.some(p=>!text.includes('https://tap-simulator-reborn.github.io'+p))) throw Error('sitemap missing approved paths');
+            await browser.close();
+          })().catch(err=>{console.error(err);process.exit(1)});
+          JS
+      - name: Upload responsive screenshots (Actions artifact, not repository)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: responsive-check-${{ github.sha }}
+          path: ${{ runner.temp }}/tap-*.png
+          if-no-files-found: ignore
+          retention-days: 3
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
