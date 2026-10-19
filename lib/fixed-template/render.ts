@@ -160,6 +160,25 @@ export function renderFixedTemplate(input:FixedTemplateInput):string{
   if(input.page==="inner"&&input.articleHtml)html=replaceArticleBody(html,input.articleHtml);
   if(input.supplementHtml)html=insertSupplement(html,input.supplementHtml);
   html=applyCopy(html,input);
+  // The supplied encyclopedia skin contains unfilled HTML samples. Keep its CSS
+  // and layout, but make the published home page show real information.
+  if (pack.skin === "classic-encyclopedia") {
+    // A dedicated site footer is rendered by the Next.js layout.
+    html=html.replace(/<footer class="site-footer [^"]*">[\s\S]*?<\/footer>/g,"");
+    if(input.page === "home"){
+      // The original sample illustration depicts a different game; never publish it.
+      html=html.replace(/<svg[^>]*aria-label="Abstract Drag[^"]*guide cover art"[^>]*>[\s\S]*?<\/svg>/g,"");
+      const intro=esc(input.lead || "Open the official game or browse the focused guides.");
+      html=html.replace(/(<div class="hero-grid"><div>)<p><\/p><p><\/p>/,
+        `$1<p class="lead" style="font-size:18px;line-height:1.65">${intro}</p><p>2026 Roblox game · Source review: October 19, 2026</p>`);
+      const rails=(input.entries??[]).map(item=>`<a href="${safeAttr(item.href)}">${esc(item.title)}</a>`).join("");
+      html=html.replace(/<aside class="rail">[\s\S]*?<\/aside>/,
+        `<aside class="rail"><strong>Quick guides</strong>${rails}</aside>`);
+      html=html.replace(/<section id="section" class="section">[\s\S]*?<\/section>/,"");
+      html=html.replace(/<h2><\/h2>/g,"<h2>Explore the guides</h2>");
+    }
+    html=html.replace(/<a><\/a>/g,"").replace(/<p><\/p>/g,"");
+  }
   html=html.replace(/--accent:#[0-9A-Fa-f]{6}/,`--accent:${paint.textAccent}`);
   html=html.replace("</style>",`${accentOverrideCss(pack.skin,paint)}</style>`);
   if(!/<body[^>]*data-template=/.test(html))html=html.replace(/<body([^>]*)>/,`<body$1 data-template="${pack.specId.replace(/^\d+-/,"")}">`);
