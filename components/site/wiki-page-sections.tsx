@@ -4,7 +4,7 @@ import { routePath } from "@/lib/urls";
 import { DataTable } from "./data-table";
 
 function SourceParagraph({ text }: { text: string }) {
-  const match = /^SOURCE: ([^|]+) \\| (https:\\/\\/\\S+)$/.exec(text);
+  const match = /^SOURCE: ([^|]+) [|] (https:\/\/[^\s]+)$/.exec(text);
   if (!match) return <p>{text}</p>;
   try {
     const uri = new URL(match[2]);
