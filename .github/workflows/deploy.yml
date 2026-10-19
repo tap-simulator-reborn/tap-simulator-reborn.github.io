@@ -54,3 +54,23 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify published pages and SEO endpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://tap-simulator-reborn.github.io"
+          for path in / /codes/ /halloween-event/ /how-to-get-candy-corn/ /volcano-island/ /trading-status/; do
+            page="$(curl --fail --silent --show-error --location --retry 9 --retry-delay 8 --retry-all-errors --max-time 35 "${base}${path}")"
+            [[ "$page" == *"<html"* ]] || { echo "Missing HTML: $path"; exit 1; }
+            [[ "$page" == *'rel="canonical"'* ]] || { echo "Missing canonical: $path"; exit 1; }
+            [[ "$page" == *"Tap Simulator"* ]] || { echo "Missing game text: $path"; exit 1; }
+            [[ "$page" != *"noindex"* ]] || { echo "Unexpected noindex: $path"; exit 1; }
+            echo "Online PASS: $path"
+          done
+          robots="$(curl --fail --silent --show-error --location --retry 5 --retry-delay 8 "${base}/robots.txt")"
+          [[ "$robots" == *"sitemap.xml"* ]] || { echo "Missing robots sitemap"; exit 1; }
+          sitemap="$(curl --fail --silent --show-error --location --retry 5 --retry-delay 8 "${base}/sitemap.xml")"
+          for path in /codes/ /halloween-event/ /how-to-get-candy-corn/ /volcano-island/ /trading-status/; do
+            [[ "$sitemap" == *"${base}${path}"* ]] || { echo "Missing sitemap entry: $path"; exit 1; }
+          done
+          echo "Online PASS: robots.txt and sitemap.xml"
