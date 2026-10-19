@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Tap Simulator: Reborn Guide",
+  "description": "Guides, walkthroughs, tips, updates, and reference information for Tap Simulator: Reborn.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Game guide",
+    "heading": "Tap Simulator: Reborn",
+    "lead": "Guides, walkthroughs, tips, updates, and reference information for Tap Simulator: Reborn.",
+    "supportingText": "Browse current game information and practical guides.",
+    "secondaryLink": {
+      "label": "Open official game page",
+      "url": "https://www.roblox.com/games/72858262610964"
+    }
+  },
+  "sections": [
+    {
+      "id": "start-here",
+      "heading": "Game information",
+      "paragraphs": [
+        "Current Tap Simulator: Reborn guides and reference information will be published here."
+      ]
+    }
+  ],
+  "faq": [],
+  "screenshots": [],
+  "lastReviewed": "2026-10-19"
+}
