@@ -574,3 +574,6 @@ html[data-skin="wiki"] .wiki-quick-nav li+li { border-top: 1px solid hsl(var(--b
   html[data-skin="wiki"] .wiki-hero-cover img { height: 220px; }
   html[data-skin="wiki"] .wiki-hero-actions > a { width: 100%; justify-content: center; }
 }
+
+/* Keep anchored headings visible below the sticky site header. */
+html[data-skin="wiki"] .wiki-page-sections > section { scroll-margin-top: 5rem; }
