@@ -5,8 +5,6 @@ import { Faq } from "@/components/site/faq";
 import { JsonLd } from "@/components/site/json-ld";
 import { PageSections } from "@/components/site/page-sections";
 import { SkinHomePage } from "@/components/site/skin-home";
-import { FixedTemplateHome } from "@/components/templates/fixed-template-home";
-import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { WikiHomePage } from "@/components/site/wiki-home-page";
 import { siteConfig } from "@/config/site";
 import { siteSkin } from "@/config/skin";
@@ -18,8 +16,7 @@ import { assetPath, routePath } from "@/lib/urls";
 export const metadata = pageMetadata(homePage);
 
 export default function HomePage() {
-  if (isFixedTemplate()) return <FixedTemplateHome home={homePage} />;
-  if (siteSkin() === "wiki") return <WikiHomePage />;
+  if (siteSkin() === "wiki" || siteSkin() === "classic-encyclopedia") return <WikiHomePage />;
   if (siteSkin() !== "portal") return <SkinHomePage />;
 
   return (

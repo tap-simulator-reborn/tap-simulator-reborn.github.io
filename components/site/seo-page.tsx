@@ -10,14 +10,11 @@ import { Faq } from "./faq";
 import { JsonLd } from "./json-ld";
 import { PageSections } from "./page-sections";
 import { RelatedPages } from "./related-pages";
-import { FixedTemplateInner } from "@/components/templates/fixed-template-inner";
-import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { SkinSeoPage } from "./skin-seo-page";
 import { WikiSeoPage } from "./wiki-seo-page";
 
 export function SeoPage({ page }: { page: SeoPageDefinition }) {
-  if (isFixedTemplate()) return <FixedTemplateInner page={page} />;
-  if (siteSkin() === "wiki") return <WikiSeoPage page={page} />;
+  if (siteSkin() === "wiki" || siteSkin() === "classic-encyclopedia") return <WikiSeoPage page={page} />;
   if (siteSkin() !== "portal") return <SkinSeoPage page={page} />;
 
   const related = getRelatedPages(page);

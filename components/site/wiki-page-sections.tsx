@@ -3,6 +3,19 @@ import type { PageSection } from "@/config/types";
 import { routePath } from "@/lib/urls";
 import { DataTable } from "./data-table";
 
+function SourceParagraph({ text }: { text: string }) {
+  const match = /^SOURCE: ([^|]+) \\| (https:\\/\\/\\S+)$/.exec(text);
+  if (!match) return <p>{text}</p>;
+  try {
+    const uri = new URL(match[2]);
+    if (uri.protocol !== "https:") return <p>{text}</p>;
+    return <p className="wiki-source"><span>Reference: </span><a href={uri.toString()} rel="noopener noreferrer" target="_blank">{match[1].trim()}</a></p>;
+  } catch {
+    return <p>{text}</p>;
+  }
+}
+
+
 export function WikiPageSections({ sections }: { sections: PageSection[] }) {
   return (
     <div className="wiki-page-sections">
@@ -11,14 +24,14 @@ export function WikiPageSections({ sections }: { sections: PageSection[] }) {
           {section.eyebrow ? <p className="eyebrow">{section.eyebrow}</p> : null}
           <h2>{section.heading}</h2>
           {section.intro ? <p className="section-lead">{section.intro}</p> : null}
-          {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          {section.paragraphs?.map((paragraph) => <SourceParagraph key={paragraph} text={paragraph} />)}
 
           {section.subsections?.length ? (
             <div className="wiki-subsections">
               {section.subsections.map((subsection) => (
                 <article key={subsection.heading} className="wiki-block">
                   <h3>{subsection.heading}</h3>
-                  {subsection.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                  {subsection.paragraphs.map((paragraph) => <SourceParagraph key={paragraph} text={paragraph} />)}
                   {subsection.bullets?.length ? (
                     <ul className="wiki-bullets">
                       {subsection.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}

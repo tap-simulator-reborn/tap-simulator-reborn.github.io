@@ -8,8 +8,6 @@ import { siteConfig } from "@/config/site";
 import { siteSkin } from "@/config/skin";
 import type { InternalLink } from "@/config/types";
 import { assetPath, routePath } from "@/lib/urls";
-import { FixedTemplateHeader } from "@/components/templates/fixed-template-header";
-import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { SkinHeader } from "./skin-header";
 
 function isCurrent(slug: string, pathname: string) {
@@ -20,9 +18,8 @@ function isCurrent(slug: string, pathname: string) {
 }
 
 export function SiteHeader({ links }: { links: InternalLink[] }) {
-  if (isFixedTemplate()) return <FixedTemplateHeader links={links} />;
   const skin = siteSkin();
-  if (skin !== "portal" && skin !== "wiki") return <SkinHeader links={links} skin={skin} />;
+  if (skin !== "portal" && skin !== "wiki" && skin !== "classic-encyclopedia") return <SkinHeader links={links} skin={skin} />;
   return <PortalHeader links={links} />;
 }
 
@@ -43,7 +40,7 @@ function PortalHeader({ links }: { links: InternalLink[] }) {
 
         <button
           type="button"
-          className="site-nav-toggle border border-border p-2 text-foreground md:hidden"
+          className="site-nav-toggle border border-border p-2 text-foreground lg:hidden"
           aria-label={open ? "Close navigation" : "Open navigation"}
           aria-expanded={open}
           onClick={() => setOpen((value) => !value)}
@@ -53,7 +50,7 @@ function PortalHeader({ links }: { links: InternalLink[] }) {
 
         <nav
           aria-label="Primary navigation"
-          className={`site-nav ${open ? "flex" : "hidden"} absolute inset-x-0 top-16 flex-col gap-1 border-b border-border p-4 shadow-theme md:static md:flex md:flex-row md:border-0 md:bg-transparent md:p-0 md:shadow-none`}
+          className={`site-nav ${open ? "flex" : "hidden"} absolute inset-x-0 top-16 flex-col gap-1 border-b border-border p-4 shadow-theme lg:static lg:flex lg:flex-row lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none`}
         >
           {links.map((link) => {
             const active = isCurrent(link.slug, pathname);

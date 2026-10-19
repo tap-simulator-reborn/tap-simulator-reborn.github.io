@@ -38,7 +38,8 @@ export function WikiHomePage() {
       <JsonLd data={homeSchemas(homePage)} />
       <main>
         <section className="hero-surface wiki-hero border-b border-border">
-          <div className="site-container">
+          <div className="site-container wiki-hero-grid">
+            <div className="wiki-hero-content">
             <p className="eyebrow">{homePage.hero.eyebrow}</p>
             <h1>{homePage.hero.heading}</h1>
             <p className="wiki-hero-lead">{homePage.hero.lead}</p>
@@ -54,6 +55,11 @@ export function WikiHomePage() {
                   <Gamepad2 size={18} />{homePage.hero.secondaryLink.label}<ExternalLink size={15} />
                 </a>
               ) : null}
+            </div>
+            </div>
+            <div className="wiki-hero-cover">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={assetPath(siteConfig.assets.cover)} alt="Tap Simulator Reborn Halloween Update 1 Roblox game artwork" width={800} height={500} />
             </div>
           </div>
         </section>
@@ -96,8 +102,6 @@ export function WikiHomePage() {
                 <WikiToc items={tocItems} />
                 <section className="wiki-site-info" aria-label="Site info">
                   <p className="wiki-sidebar-title">Site info</p>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={assetPath(siteConfig.assets.cover)} alt={`${siteConfig.game.name} guide cover`} />
                   <dl>
                     {facts.map(([term, value]) => (
                       <div key={term}>

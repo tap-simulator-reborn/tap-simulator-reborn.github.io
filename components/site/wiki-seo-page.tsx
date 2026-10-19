@@ -1,4 +1,5 @@
 import { CalendarCheck2 } from "lucide-react";
+import { CopyCodes } from "./copy-codes";
 import Link from "next/link";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
 import type { SeoPageDefinition } from "@/config/types";
@@ -41,6 +42,17 @@ export function WikiSeoPage({ page }: { page: SeoPageDefinition }) {
         <div className="site-container"><NativeAdSlot /></div>
 
         <div className="site-container wiki-page-body">
+          {page.slug === "codes" ? (
+            <aside className="wiki-code-copy" aria-label="Reported codes">
+              <strong>Reported October 18 • Not verified by this website</strong>
+              <p>Try these exact strings in the game's Settings → Codes menu:</p>
+              <div className="wiki-code-buttons">
+                <button type="button" data-copy-code="spooky">Copy spooky</button>
+                <button type="button" data-copy-code="BOO!">Copy BOO!</button>
+              </div>
+              <CopyCodes />
+            </aside>
+          ) : null}
           <WikiShell
             sidebar={(
               <>
