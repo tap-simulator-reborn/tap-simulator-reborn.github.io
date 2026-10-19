@@ -2,29 +2,285 @@
   "enabled": true,
   "slug": "",
   "pageType": "home",
-  "title": "Tap Simulator: Reborn Guide",
-  "description": "Guides, walkthroughs, tips, updates, and reference information for Tap Simulator: Reborn.",
   "navVisible": true,
+  "title": "Tap Simulator Reborn Wiki – Codes & Halloween Guides",
+  "description": "Tap Simulator Reborn wiki for Roblox: codes, Halloween Update 1, Candy Corn, Volcano Island and trading status, with current guides and official links.",
   "hero": {
-    "eyebrow": "Game guide",
-    "heading": "Tap Simulator: Reborn",
-    "lead": "Guides, walkthroughs, tips, updates, and reference information for Tap Simulator: Reborn.",
-    "supportingText": "Browse current game information and practical guides.",
+    "eyebrow": "2026 Roblox game by Cursor Makers • Update 1: Oct 17",
+    "heading": "Tap Simulator Reborn Wiki",
+    "lead": "Tap Simulator Reborn is a Roblox tapping-and-pets game by Cursor Makers. Tap for Coins, hatch pets, rebirth for progression and unlock islands. Open the official game or choose a focused guide for October's Halloween update.",
+    "supportingText": "Independent fan reference • Source review: October 19, 2026 • Trading and reported codes are not described here as live-tested.",
+    "primaryLink": {
+      "slug": "codes",
+      "label": "View reported codes"
+    },
     "secondaryLink": {
-      "label": "Open official game page",
-      "url": "https://www.roblox.com/games/72858262610964"
+      "label": "Play on Roblox — official experience",
+      "url": "https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN"
     }
   },
-  "sections": [
+  "lastReviewed": "2026-10-19",
+  "screenshots": [],
+  "faq": [
     {
-      "id": "start-here",
-      "heading": "Game information",
-      "paragraphs": [
-        "Current Tap Simulator: Reborn guides and reference information will be published here."
-      ]
+      "question": "Is Tap Simulator Reborn the original Tap Simulator?",
+      "answer": "No. Reborn uses Roblox place 72858262610964. The earlier Tap Simulator uses place 75992362647444, so its reward codes and game-specific directions should not be mixed with the new experience."
+    },
+    {
+      "question": "How do you play Tap Simulator Reborn?",
+      "answer": "The official description says to tap for Coins, hatch pets from eggs, rebirth to grow stronger, unlock islands and compete on leaderboards. Begin with the official Roblox experience, not a third-party download."
+    },
+    {
+      "question": "What changed in Update 1?",
+      "answer": "The Roblox event listing announces an October 17 island and Halloween update. October 18 walkthroughs describe a Halloween activity area, event currency and a Volcano Island progression area; see the dedicated update guide for evidence labels."
+    },
+    {
+      "question": "Are the Halloween reward codes confirmed?",
+      "answer": "The strings spooky and BOO! were reported on October 18 by independent guide sites. No successful in-game redemption was documented by this site; use the Codes guide for exact spelling and source labels."
+    },
+    {
+      "question": "Can players trade pets right now?",
+      "answer": "Public pages disagree about whether trading is currently enabled. Check the dated trading-status guide and confirm the actual Trade interface in your own server before arranging a swap."
     }
   ],
-  "faq": [],
-  "screenshots": [],
-  "lastReviewed": "2026-10-19"
+  "sections": [
+    {
+      "id": "what-is",
+      "heading": "What Is Tap Simulator Reborn?",
+      "intro": "Tap Simulator: Reborn is the current Cursor Makers Roblox incremental simulator, not the older experience with a nearly identical name.",
+      "paragraphs": [
+        "Open the game from its verified Roblox place ID, 72858262610964. The Roblox description names Cursor Makers as publisher and credits @dobdev and @Zued. Use that identity check before following any guide that claims to apply to Reborn.",
+        "The core loop is simple but layered: tapping earns Coins, pet eggs supply companions, Rebirth is part of longer-term growth, and new islands extend the progression route. These points are based on the official listing; specific boost percentages, pet odds and unlock prices depend on the current game build and are not filled in from an older wiki.",
+        "A good first session starts by opening the correct Roblox place, learning the tap and egg interface, then deciding between additional pets and your next Rebirth or island. The right purchase depends on the prices shown to your account rather than a one-size-fits-all tier list. Keep the game's own interface visible while you follow any strategy."
+      ],
+      "table": {
+        "caption": "Identity check before using any guide",
+        "columns": [
+          "Field",
+          "Tap Simulator: Reborn",
+          "What it means"
+        ],
+        "rows": [
+          [
+            "Official Roblox Place ID",
+            "72858262610964",
+            "Use this place for current guides and codes"
+          ],
+          [
+            "Publisher",
+            "Cursor Makers",
+            "Appears on the official Roblox listing"
+          ],
+          [
+            "Platform",
+            "Roblox",
+            "Open using Roblox rather than a downloaded code client"
+          ],
+          [
+            "Game loop",
+            "Tap, Coins, eggs/pets, Rebirth, islands",
+            "Documented in the official description"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "heading": "Reborn vs Legacy Tap Simulator",
+          "paragraphs": [
+            "The original Tap Simulator uses a different Roblox place, 75992362647444. Some search results omit punctuation and the word Reborn, making these experiences look interchangeable. They are not interchangeable for code redemption, pet inventories, update notices or island directions.",
+            "If an online guide mentions a code that does not appear in any Reborn-specific source, confirm its game name and place ID before assuming you entered the string incorrectly. This check saves more time than retrying a code that belongs to a different title."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "october-update",
+      "heading": "October 2026 Update 1 at a Glance",
+      "intro": "The official game event listing dates Update 1 to October 17, 2026 and mentions an island and Halloween.",
+      "paragraphs": [
+        "October 18 walkthroughs associate this update with a seasonal Halloween activity area and Volcano Island with two egg stations. The Roblox listing independently supports the update event, but it does not document every route, egg rate or shop price. Treat those mechanics as walkthrough-reported until they can be checked inside the same game build.",
+        "Different guides also describe different trading states. This is not evidence that trading is working in every server now: a capture may show a feature that was briefly available, disabled or changed. The dedicated trading-status page maintains the conflicting chronology and a fast self-check.",
+        "The most efficient way to use this wiki is to choose the part of Update 1 relevant to your next action. Event farming and permanent island progression have different goals; reading one broad patch summary is useful for orientation but not enough for either task."
+      ],
+      "table": {
+        "caption": "October Update 1: choose the correct guide",
+        "columns": [
+          "Question",
+          "Evidence level",
+          "Go next"
+        ],
+        "rows": [
+          [
+            "What is the Halloween update?",
+            "Official event date; details from Oct 18 walkthroughs",
+            "Halloween Event"
+          ],
+          [
+            "How do I earn Candy Corn?",
+            "Methods reported in gameplay guides",
+            "Candy Corn Guide"
+          ],
+          [
+            "How do I reach Volcano Island?",
+            "New area and two eggs reported by walkthroughs",
+            "Volcano Island"
+          ],
+          [
+            "Is pet trading available?",
+            "Conflicting time-stamped reports",
+            "Trading Status"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "heading": "Permanent vs Limited-Time Content",
+          "paragraphs": [
+            "The walkthrough describes Volcano Island as a progression area and Halloween activities as seasonal. Do not infer the end date of the in-game shop solely from the expiry of a Roblox event calendar entry. If you are choosing what to do tonight, check the visible event timer before spending time collecting a currency with a limited use window.",
+            "Permanent progression normally deserves steady investment while a limited activity deserves a deadline check. Neither observation establishes a universal best purchase; confirm what your server currently displays."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "slug": "halloween-event",
+          "label": "Halloween Update 1 guide",
+          "description": "Start with the event overview and its reported activities"
+        },
+        {
+          "slug": "volcano-island",
+          "label": "Volcano Island guide",
+          "description": "Check the two new egg stations"
+        }
+      ]
+    },
+    {
+      "id": "codes-rewards",
+      "heading": "Codes and Free Rewards",
+      "intro": "For October 2026, two Reborn-specific Halloween strings have been reported by code guides, but they are not personally verified on this site.",
+      "paragraphs": [
+        "The exact strings are spooky and BOO!. Their capitalization and the exclamation mark matter when copying them into the menu. Third-party code trackers published these values on October 18, along with potion and Candy Corn reward descriptions. That publication date is not the same as a successful test performed by us today.",
+        "This site separates reported strings from an in-game verified result. A report tells you what to try; a verified result would require a dated redemption outcome from the current game. No older Tap Simulator reward list is imported into the Reborn guide.",
+        "If you came here for free rewards, go directly to the Codes page rather than scanning unrelated pet tier lists. That guide includes the exact reported spellings, Settings menu route, and failure checks for duplicate, expired and wrong-game attempts."
+      ],
+      "subsections": [
+        {
+          "heading": "Where to Redeem Codes",
+          "paragraphs": [
+            "October 18 instructions place the entry box under Settings, then Codes, then Redeem. Open the official experience, look for the Settings control, and only use the entry field if it exists in the current interface. Rejoin a server if your UI appears outdated.",
+            "Do not confuse a Support a Creator field with a free reward-code input. Never enter your Roblox password on a website promising instant codes or Robux."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "slug": "codes",
+          "label": "Tap Simulator Reborn Codes",
+          "description": "Reported strings, rewards and an exact redemption checklist"
+        }
+      ]
+    },
+    {
+      "id": "halloween-candy",
+      "heading": "Halloween Event and Candy Corn",
+      "intro": "The seasonal guide and the currency guide answer two different player questions.",
+      "paragraphs": [
+        "Use the Halloween overview when you need to identify the update content: event activities, the possible event portal, seasonal pets, reported boss encounters and the shop. The overview puts each task in context instead of repeating a large collection of unconfirmed reward numbers.",
+        "Use the Candy Corn page when you already understand the event and want to decide what to do next. It organizes reported sources including trick-or-treat houses, NPC quests, boss participation and event codes. Each method has a way to check it yourself, without pretending that every method has a measured payout.",
+        "A useful event routine is to look for the current event entry, inspect the shop's real prices, identify which activities award Candy Corn on your server, and then time two or three runs of the same activity. Write down how much your balance changed and how long the attempts took. That makes your own decisions more accurate than generic 'fastest farm' claims.",
+        "If you are new to Reborn, first verify the event is still accessible. If the portal or task is missing, do not follow an older video into a different island. Check the game's announcements and current interface before deciding it has been removed."
+      ],
+      "subsections": [
+        {
+          "heading": "Event Hub and Currency Route",
+          "paragraphs": [
+            "The event overview explains what the October 17 update is supposed to contain; the Candy Corn guide focuses on earning and spending a resource. The distinction matters for search results as well as for players because a request to 'get candy corn' deserves an actionable method, not only patch notes."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "slug": "halloween-event",
+          "label": "Halloween Event",
+          "description": "Update overview, activity sequence and evidence"
+        },
+        {
+          "slug": "how-to-get-candy-corn",
+          "label": "Get Candy Corn",
+          "description": "Sources, repeatability checks and spending priorities"
+        }
+      ]
+    },
+    {
+      "id": "volcano-eggs",
+      "heading": "Volcano Island and New Eggs",
+      "intro": "Volcano Island is a new progression destination reported in October 18 Update 1 walkthroughs.",
+      "paragraphs": [
+        "Those walkthroughs describe two named egg stations: Volcanic Egg and Draconic Egg. There is not a verified current unlock price, hatch probability or list of every pet on this site. Numbers copied from a pre-update island table could be inaccurate, so we do not present them as the Volcano price.",
+        "On arriving at the in-game portal or island menu, read the displayed unlock condition before spending Coins. Once the area opens, compare the two egg prompts separately: the pet previews, cost, odds shown in the interface and how each option fits your resources.",
+        "For a new player, an expensive new egg is not always the immediate best option if previous progression upgrades still yield better value. Use the interface values to decide rather than assuming the newest station is automatically optimal."
+      ],
+      "subsections": [
+        {
+          "heading": "Which Egg to Check First",
+          "paragraphs": [
+            "Check the Volcanic Egg station and the Draconic Egg station as separate choices. If the game shows no numerical odds, record them as unpublished rather than guessing. The dedicated island page provides a comparison checklist and a path for documenting the current version."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "slug": "volcano-island",
+          "label": "Volcano Island and new eggs",
+          "description": "Egg comparison and unlock route checks"
+        }
+      ]
+    },
+    {
+      "id": "trading-status",
+      "heading": "Trading: Check the Current Status",
+      "intro": "Trading availability is not confirmed live for all servers as of this October 19 source review.",
+      "paragraphs": [
+        "A Roblox listing snapshot said 'Trading coming soon,' while other October 18 update reports describe trading being enabled or temporarily closed. Both kinds of report exist. Neither an older screenshot nor a player comment alone can establish your present server's Trade button status.",
+        "To verify, enter the correct Roblox experience, check the actual trade control, and see whether a trade request can proceed normally. A missing button, disabled message or server-specific warning is more relevant than an article's undated 'yes' or 'no'.",
+        "When trading is available, do not use unofficial login pages or off-platform offers. Check the exact pet and counterpart before accepting an exchange, and treat third-party pet values as opinions rather than guarantees."
+      ],
+      "subsections": [
+        {
+          "heading": "Why Other Guides Disagree",
+          "paragraphs": [
+            "Search engines can display a cache written before Update 1 alongside newer walkthroughs recorded after it. A temporary switch during rollout could explain some conflicts, but without developer confirmation we cannot attribute the discrepancy to a specific bug or promise a reopening time.",
+            "The status guide records the source timeline and a simple safety checklist so players can distinguish historical reports from an actual on-server check."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "slug": "trading-status",
+          "label": "Trading Status",
+          "description": "Conflicting reports, how to verify and safe trading"
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "heading": "Official Sources and Page Updates",
+      "intro": "Reference points used for this page and for the five specialist guides.",
+      "paragraphs": [
+        "Source review date: October 19, 2026. The official game listing is used for the place ID, publisher and tap–egg–rebirth–island loop. October 18 independent guides inform the seasonal mechanic descriptions, which remain labeled where game-specific verification is missing.",
+        "The site is fan-made and is not affiliated with Cursor Makers or Roblox. There are no account forms or user-submitted Roblox credentials here. Source pages can change; if the game interface contradicts an older article, follow the current in-game prompt."
+      ],
+      "paragraphsUnused": [],
+      "subsections": [
+        {
+          "heading": "Verification links",
+          "paragraphs": [
+            "SOURCE: Official Tap Simulator Reborn on Roblox | https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN",
+            "SOURCE: October 18 Update 1 walkthrough | https://robolibrary.org/guides/tap-simulator-reborn-update-1-halloween-guide",
+            "SOURCE: October 18 codes report | https://urgametips.com/tap-simulator-reborn-codes/"
+          ]
+        }
+      ]
+    }
+  ]
 }
