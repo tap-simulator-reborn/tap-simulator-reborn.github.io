@@ -1,1 +1,1289 @@
-[]
+[
+  {
+    "lastReviewed": "2026-10-19",
+    "enabled": true,
+    "navVisible": true,
+    "screenshots": [],
+    "slug": "codes",
+    "navLabel": "Codes",
+    "title": "Tap Simulator Reborn Codes (Oct 2026) – Redeem Guide",
+    "description": "Check Tap Simulator Reborn codes for October 2026, reported rewards, how to redeem in Settings, and why legacy Tap Simulator codes do not work.",
+    "pageType": "codes",
+    "hero": {
+      "eyebrow": "Tap Simulator: Reborn • October 2026",
+      "heading": "Tap Simulator Reborn Codes",
+      "lead": "Two Halloween codes were reported on October 18, 2026: spooky and BOO!. Both are source-reported, not independently redeemed by this site. Copy the exact strings and use the reported Settings → Codes route inside the correct Roblox game."
+    },
+    "sections": [
+      {
+        "id": "current-codes",
+        "heading": "Current Tap Simulator Reborn Codes",
+        "intro": "Source review: October 19, 2026 • No successful in-game code redemption personally documented.",
+        "paragraphs": [
+          "The strings in this table were documented by October 18 code guides for the current Roblox place 72858262610964. Their status here is Reported, not Verified: an article listing a reward does not prove that a fresh Roblox account can redeem it in the latest server build.",
+          "Try the codes exactly as written and review the on-screen success or rejection response. If the interface accepts a code but you have redeemed it before, a duplicate message is not proof the reward has expired globally. Record the original string and current server date before making a claim about validity.",
+          "Unlike some generic 'all working' lists, this record does not mix codes from the older Tap Simulator or claim a result that no one here has personally observed. The reward descriptions also come from the linked publishers, not from a first-hand inventory capture."
+        ],
+        "table": {
+          "caption": "Reported Halloween code record · published October 18",
+          "columns": [
+            "Exact code",
+            "Rewards as reported",
+            "Status",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "spooky",
+              "Luck Potion, Coins Potion, Gems Potion; 250 Candy Corn",
+              "Reported — untested here",
+              "UrGameTips / RoboLibrary, Oct 18"
+            ],
+            [
+              "BOO!",
+              "Luck Potion; 100 Candy Corn",
+              "Reported — untested here",
+              "UrGameTips / RoboLibrary, Oct 18"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Verified vs Reported Codes",
+            "paragraphs": [
+              "Verified means a dated successful redemption in the actual Reborn experience with the server/build and reward screen captured. Reported means a named third-party publisher listed the string. Expired means a meaningful test or developer notice establishes that a once-valid string no longer works, not simply that one player encountered an error.",
+              "As of this review, this site has no verified-in-game result and does not have enough evidence to label any specific string expired. Keep those categories separate when sharing the list with friends."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "redeem",
+        "heading": "How to Redeem Codes in Tap Simulator Reborn",
+        "intro": "The current instructions below are reported by October 18 code publishers; match them against the live menu you see.",
+        "paragraphs": [
+          "First open the official Reborn Roblox place. Code trackers describe the entry path as Settings in the upper-right interface, followed by Codes within that menu. The next action is to enter the exact string and select Redeem. If your interface differs, do not assume that a different button is a code field.",
+          "Before tapping Redeem, check for spaces inserted when copying and preserve the punctuation in BOO!. Avoid an extra line break if the code came from a chat message. Note the actual in-game response, not just whether a generic success animation appeared elsewhere on screen.",
+          "If you cannot find Codes in Settings, consider the server version or whether you have opened the right experience. A Support a Creator field is not evidence that the current game has a redeemable gift code input. Do not type codes into Roblox account login or billing forms."
+        ],
+        "steps": [
+          {
+            "heading": "Open the correct Roblox experience",
+            "description": "Use place ID 72858262610964. Check the game title and publisher before following any codes guide."
+          },
+          {
+            "heading": "Open Settings and look for Codes",
+            "description": "October 18 walkthroughs describe the Settings → Codes location. Confirm that the menu exists in your current build."
+          },
+          {
+            "heading": "Paste the exact code",
+            "description": "Try spooky or BOO! without leading spaces. Keep BOO! in uppercase with its exclamation mark."
+          },
+          {
+            "heading": "Read the response and rewards",
+            "description": "Only a successful game message and inventory change can independently verify the result; an error alone may have several explanations."
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "Mobile vs Desktop",
+            "paragraphs": [
+              "The reported menu is a game UI control, not a desktop-only browser form. On mobile, use the actual Roblox game interface rather than looking for a control in this external website. Screen layouts may change with a game update, so button coordinates from screenshots are not reliable instructions.",
+              "When the Settings panel is too small to read, close other overlays and look for its labeled tabs. Do not rely on a 'secret code' installer, browser extension or off-site redeem form."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "not-working",
+        "heading": "Why a Code Is Not Working",
+        "intro": "Treat a rejected redemption as a troubleshooting question before marking a code expired.",
+        "paragraphs": [
+          "Most first checks take less than a minute: validate the Roblox place, match the exact characters, remove leading or trailing spaces and look for a duplicate-use response. Then compare the publisher's report date with the current version. An October 18 report does not establish that a code is active on October 19 or later.",
+          "The game may also roll out a patch between code-list publication and your attempt. Rejoining the experience can help check whether an interface has changed, though it does not guarantee a formerly valid code will start working again.",
+          "If a code cannot be entered because the Codes control is absent, that is different from a clear 'expired' message. Keep UI availability and individual string validity as separate questions."
+        ],
+        "table": {
+          "caption": "Code troubleshooting by symptom",
+          "columns": [
+            "Symptom",
+            "What to check",
+            "What not to conclude"
+          ],
+          "rows": [
+            [
+              "Invalid or unknown",
+              "Exact game ID, spelling, punctuation, whitespace",
+              "Not automatically expired everywhere"
+            ],
+            [
+              "Already redeemed",
+              "Account may have used the code earlier",
+              "Not evidence of a new reward"
+            ],
+            [
+              "Code entry missing",
+              "Settings menu, server build, correct game",
+              "Do not use a creator-support field"
+            ],
+            [
+              "No reward visible",
+              "Compare before/after inventory and in-game message",
+              "Do not declare success on a list alone"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Reborn vs Legacy Codes",
+            "paragraphs": [
+              "The original Tap Simulator and Tap Simulator: Reborn have different Roblox place IDs. Older lists of MASTERY, CLANS or other original-game strings should not be presented as current Reborn rewards. This mismatch is one of the most avoidable sources of confusion in Google results.",
+              "A copied code may be accurate for its own original game and still fail in Reborn; double-check the game title on the source page before reporting a bug."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rewards",
+        "heading": "Rewards and Candy Corn",
+        "intro": "Reported October 18 rewards emphasize potions and Halloween Candy Corn rather than an unconditional Coin deposit.",
+        "paragraphs": [
+          "UrGameTips and RoboLibrary list spooky with three potion types and 250 Candy Corn, while BOO! is listed with a Luck Potion and 100 Candy Corn. These are third-party reward lines. Until a current redemption receipt is available, treat the numbers as reported possibilities rather than guaranteed balances.",
+          "Candy Corn belongs to the Halloween resource loop described in the event guides. If you receive some, inspect your shop and event timer before spending it. A code may be useful for acquiring event currency but it does not prove a particular item is affordable or still stocked.",
+          "Potions serve different activities from seasonal currency. If your inventory actually receives a potion, read the tooltip and decide when its effect is useful. We do not state unconfirmed potion durations or percentage multipliers."
+        ],
+        "subsections": [
+          {
+            "heading": "Where Candy Corn Is Spent",
+            "paragraphs": [
+              "October 18 event walkthroughs describe a Halloween shop. Check that shop's current item list and prices in-game. This page covers whether codes grant reported rewards; it intentionally delegates farming methods and spending decisions to the dedicated Candy Corn guide."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "slug": "how-to-get-candy-corn",
+            "label": "Candy Corn sources and spending",
+            "description": "See the currency workflow"
+          },
+          {
+            "slug": "halloween-event",
+            "label": "Halloween Update 1",
+            "description": "Get the seasonal event context"
+          }
+        ]
+      },
+      {
+        "id": "archive",
+        "heading": "Expired and Unverified Archive",
+        "intro": "As of the October 19 source review: no specific code has been independently confirmed expired by this site.",
+        "paragraphs": [
+          "Keep spooky and BOO! in the Reported category until a stronger outcome is available. An empty expired list is more honest than classifying unknown strings as expired to make a guide seem complete.",
+          "There is no live auto-checker on this page. The check date is the review date of the source material, not proof of a fresh redemption at each visit. Treat any code status as time-sensitive and prioritize the actual game response."
+        ],
+        "subsections": [
+          {
+            "heading": "Source and Testing Log",
+            "paragraphs": [
+              "October 18, 2026: UrGameTips and RoboLibrary published the two strings and reward descriptions. October 19, 2026: this site's editorial review compared the published claims against the Roblox place ID; no account-level successful redemption test was available.",
+              "For a future verified update, record the code, server date/time, visible interface label, redemption response and reward change. Do not post a player's Roblox ID, chat history or private account information as supposed evidence.",
+              "SOURCE: UrGameTips code record | https://urgametips.com/tap-simulator-reborn-codes/",
+              "SOURCE: RoboLibrary code record | https://robolibrary.org/wikis/tap-simulator-reborn/codes",
+              "SOURCE: Official Roblox experience | https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "codes-faq",
+        "heading": "Tap Simulator Reborn Codes FAQ",
+        "intro": "The common questions below focus on a single job: trying genuine Reborn strings without confusing reporting with verification.",
+        "paragraphs": [
+          "If the code is copied correctly but fails, start with the troubleshooting table rather than downloading an unrelated program. The correct official experience and an intact string are the two most useful checks.",
+          "The next major game update may introduce or remove codes. A named source and a date let you judge the report more accurately than a 'newest working' headline without a timestamp."
+        ],
+        "subsections": [
+          {
+            "heading": "How Often Are Codes Checked?",
+            "paragraphs": [
+              "This independent page is manually maintained when evidence changes. It does not claim automatic hourly checks or access to private developer data. Compare its October 19 review date with newer official announcements whenever you need a current result."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are spooky and BOO! working today?",
+        "answer": "Both strings were reported on October 18, 2026. This site has not independently verified successful redemption today; try them in the current Roblox experience and use its response."
+      },
+      {
+        "question": "Where is the Codes button?",
+        "answer": "Third-party October 18 instructions show Settings → Codes. The current in-game menu is the final authority if the layout has changed."
+      },
+      {
+        "question": "Are Reborn and original Tap Simulator codes interchangeable?",
+        "answer": "No. The two games have different Roblox place IDs and independent code systems."
+      },
+      {
+        "question": "Are codes case-sensitive?",
+        "answer": "Preserve the exact string, especially BOO!. Game-wide case-sensitivity has not been independently tested here."
+      },
+      {
+        "question": "Do Halloween codes expire on a particular day?",
+        "answer": "No developer-confirmed expiry day was verified for these strings. Seasonal timing is a reason to check soon, not a basis to invent a deadline."
+      }
+    ],
+    "relatedSlugs": [
+      "halloween-event",
+      "how-to-get-candy-corn"
+    ]
+  },
+  {
+    "lastReviewed": "2026-10-19",
+    "enabled": true,
+    "navVisible": true,
+    "screenshots": [],
+    "slug": "halloween-event",
+    "navLabel": "Halloween",
+    "title": "Tap Simulator Reborn Halloween Event & Update 1 Guide",
+    "description": "Explore the Tap Simulator Reborn Halloween event and Update 1: event portal, Candy Corn, Hall Lord, Blood Moon and Volcano Island, with checked tips.",
+    "pageType": "updates",
+    "hero": {
+      "eyebrow": "Tap Simulator: Reborn • October 2026",
+      "heading": "Tap Simulator Reborn Halloween Event Guide",
+      "lead": "Update 1 was listed for October 17, 2026 on Roblox with an island and Halloween theme. October 18 walkthroughs report a seasonal hub, Candy Corn activities, Hall Lord and Blood Moon features; gameplay-specific details below are source-reported, not personally tested."
+    },
+    "sections": [
+      {
+        "id": "whats-new",
+        "heading": "What Changed in Update 1?",
+        "intro": "Update 1 combines a seasonal event track with additional normal progression.",
+        "paragraphs": [
+          "The official Roblox event listing announced an October 17 update including a new island and Halloween. That entry confirms the event announcement, not every gameplay value in unofficial guides. Recorded October 17 builds described by October 18 publishers additionally include a Halloween area, event currency, shops and a new Volcano Island.",
+          "Because the game has changed quickly, distinguish a persistent island objective from a time-limited event objective. A player collecting Candy Corn is trying to meet a seasonal deadline; a player saving Coins to reach a new island is working on progression that guides describe as permanent.",
+          "An overview should help you make that choice before giving you a giant unsourced table. We therefore separate the event hub route, currency loop, reported boss and Blood Moon mechanics, and permanent Volcano progression into independent next actions."
+        ],
+        "table": {
+          "caption": "Update 1 overview and evidence",
+          "columns": [
+            "Addition",
+            "Player task",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Halloween event",
+              "Find event activities and seasonal shop",
+              "Oct 17 official event; Oct 18 gameplay reports"
+            ],
+            [
+              "Candy Corn",
+              "Earn and allocate Halloween currency",
+              "Third-party walkthroughs, Oct 18"
+            ],
+            [
+              "Hall Lord / Blood Moon",
+              "Check timed activity UI in your server",
+              "Third-party recordings, not independently re-tested"
+            ],
+            [
+              "Volcano Island",
+              "Reach the new area and inspect two egg stations",
+              "Oct 18 Update 1 walkthrough"
+            ],
+            [
+              "Trading",
+              "Find out if the trade UI currently functions",
+              "Reports conflict; status not declared live"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "how-to-get-candy-corn",
+            "label": "Candy Corn earning guide",
+            "description": "Detailed resource routes and repeatability checks"
+          },
+          {
+            "slug": "volcano-island",
+            "label": "Volcano Island",
+            "description": "Permanent island and egg comparison"
+          }
+        ]
+      },
+      {
+        "id": "enter-event",
+        "heading": "How to Enter the Halloween Event",
+        "intro": "October 18 walkthroughs describe a seasonal portal at or near the spawn area.",
+        "paragraphs": [
+          "Begin at the spawn area in the correct Reborn place and scan the labeled portals or event decorations for Halloween. Follow an in-game label rather than taking a guess at an exact compass direction: the currently available public evidence does not support a stable, screenshot-verified turn-by-turn route.",
+          "Once you reach an event area, locate its shop or task interface before farming. If you can inspect item prices and the available time window, you can decide how much Candy Corn is worth collecting. If no event entry is available, check your current server and official announcements rather than assuming the portal exists at an older map position.",
+          "Avoid following a guide that accidentally sends you to the original Tap Simulator. The similar game names make this more likely around major content updates."
+        ],
+        "steps": [
+          {
+            "heading": "Confirm the game",
+            "description": "Use the official Roblox Reborn experience and its place ID 72858262610964."
+          },
+          {
+            "heading": "Inspect the spawn hub",
+            "description": "Look for a seasonal entry, portal label or event-related interaction shown in the current build."
+          },
+          {
+            "heading": "Read the event activity list",
+            "description": "Check visible NPCs, quests, shop inventory and any remaining-time UI before choosing a route."
+          },
+          {
+            "heading": "Choose a specific task",
+            "description": "Go to Candy Corn farming for currency planning, or the main progression map for Volcano Island."
+          }
+        ]
+      },
+      {
+        "id": "activities",
+        "heading": "Halloween Activities and What to Do First",
+        "intro": "October 18 gameplay coverage describes multiple event interactions, but not every player will see an identical interface after patches.",
+        "paragraphs": [
+          "Trick-or-treat appears in third-party walkthroughs as a house-based activity. First verify that houses provide an interaction on your server and note whether a house may be revisited. Keep your starting currency balance in view, so a visually busy animation does not get mistaken for an actual reward.",
+          "The Candy Witch is described as an NPC with event tasks. Check the current quest description and reward in the game before starting, and do not assume the same quest count, reset interval or reward is universal across versions.",
+          "A Hall Lord encounter is also reported; if you want the boss instead of the general currency route, read the actual in-game spawn or event indicator. Multiple sources discuss timed appearances, but no universal hour-by-hour guarantee is established on this site.",
+          "The first practical decision is which task you can actually complete with your present progress and time. A short repeatable activity may be better for a new account than waiting for a high-damage boss, but that is a strategy choice to test rather than an established Candy-per-minute statistic."
+        ],
+        "subsections": [
+          {
+            "heading": "A new player's 20-minute observation run",
+            "paragraphs": [
+              "Spend the first minutes finding the active event entry and noting your Candy Corn balance. Then test one available activity, record the result, and look for any obvious cooldown. If a quest is available, compare its effort with your first activity. Only commit to a long session after the same action has paid out at least once.",
+              "This workflow is deliberately repeatable even when exact Halloween amounts change. It gives you a useful answer while avoiding an invented 'best farm route' on a map no one here has independently captured."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "boss",
+        "heading": "Hall Lord Boss and Blood Moon",
+        "intro": "These are gameplay features described in the October 18 Update 1 walkthrough, not current official numerical specifications.",
+        "paragraphs": [
+          "The published walkthrough discusses a Hall Lord boss with timed appearances and damage-based rewards. It also describes a Blood Moon-related control or event with a temporary advantage. Those are valuable leads for deciding what to investigate in-game.",
+          "However, exact boss times, damage rank bonuses, buff multipliers and duration are version-sensitive. This site does not publish a fixed on-the-hour schedule, a 1.75× multiplier, or a precise minute count without an independently documented current session.",
+          "If a boss is active, confirm the participation UI, your damage contribution and your actual rewards. When comparing repeat attempts, note whether any potions or pet effects were active; otherwise the results cannot fairly be compared.",
+          "Likewise, check the exact Blood Moon control shown by the live UI and the countdown, if any. An event dial may have an availability limit or cost that a summary article omits. Do not spend resources based solely on an uncited screenshot."
+        ],
+        "subsections": [
+          {
+            "heading": "When to participate",
+            "paragraphs": [
+              "If you have enough game progress to contribute meaningfully, a timed event can complement normal quests. If you are early in the game, repeated simple tasks may be easier to measure. Do not claim that one route is universally faster until you have tried both under comparable conditions."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pets",
+        "heading": "Halloween Pets, Secrets and Eggs",
+        "intro": "Seasonal pet information needs unusually careful version labels because limited events and normal eggs can overlap.",
+        "paragraphs": [
+          "One October 18 gameplay account reports Halloween secret pets appearing across ordinary island eggs, not only a dedicated event egg. That is a useful research hint, but it is not a verified hatch probability or a promise that every egg currently shares the same pool.",
+          "Before using rare currency on a hatch, inspect the live egg preview if the game provides one. Record the named station, listed pet pool and any visibly published odds. If no odds are shown, the correct comparison is 'unknown', not a probability copied from an unrelated tapping game.",
+          "Event pets may matter for collection as well as raw progression. Compare the in-game pet details and remaining event time; do not treat an old multiplier chart as a fresh value list. A pet trade market could change later, but it does not justify purchasing off-site pets or Robux offers."
+        ],
+        "subsections": [
+          {
+            "heading": "Event pets versus Volcano eggs",
+            "paragraphs": [
+              "The Halloween pages cover event activities and temporary rewards. The Volcano guide covers the two reported new progression egg stations. Keeping those subjects separate prevents confusing a seasonal pet rumor with a published Volcanic Egg or Draconic Egg drop."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "candy-overview",
+        "heading": "Where Candy Corn Fits Into the Event",
+        "intro": "Candy Corn is the event-specific currency described in October 18 Halloween coverage.",
+        "paragraphs": [
+          "The reported ways to obtain it include trick-or-treat interactions, Candy Witch tasks, boss rewards and the rewards listed for event codes. These are options to check, not a certified menu of currently guaranteed payouts.",
+          "For sensible spending, open the live Halloween shop and compare the cost of items that serve your immediate goal. If a reward is cosmetic, a pet, or a consumable, value depends on your needs; there is no reliable published universal purchase order in the material reviewed.",
+          "A precise rate comparison requires attempts, elapsed minutes and actual Candy Corn gained. We keep that method and a ready-to-use recording template on the dedicated currency page instead of inflating this event overview with duplicate farm instructions."
+        ],
+        "links": [
+          {
+            "slug": "how-to-get-candy-corn",
+            "label": "How to Get Candy Corn",
+            "description": "Full earning-method comparison"
+          },
+          {
+            "slug": "codes",
+            "label": "Halloween reward codes",
+            "description": "Reported potion and Candy Corn rewards"
+          }
+        ]
+      },
+      {
+        "id": "event-log",
+        "heading": "Halloween Event FAQ and Update Log",
+        "intro": "Only dated evidence is treated as a statement about a particular game build.",
+        "paragraphs": [
+          "October 17: Roblox event listing announces Update 1 with an island and Halloween. October 18: published gameplay summaries document a seasonal hub, boss-related activities and Volcano eggs. October 19: source review for this page; no independent same-day gameplay recording is claimed.",
+          "The official event card does not establish an exact deadline for every item in the Halloween shop. Check the live event timer, if one is displayed, before making a decision that depends on a cutoff date. The game can patch the seasonal activities without changing the old guide URLs.",
+          "SOURCE: Official Roblox update listing | https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN",
+          "SOURCE: RoboLibrary October 18 gameplay report | https://robolibrary.org/guides/tap-simulator-reborn-update-1-halloween-guide"
+        ],
+        "links": [
+          {
+            "slug": "trading-status",
+            "label": "Trading Status",
+            "description": "Separate, contested feature status timeline"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "When did Halloween Update 1 begin?",
+        "answer": "The official Roblox event listing dates Update 1 to October 17, 2026."
+      },
+      {
+        "question": "Where is the Halloween portal?",
+        "answer": "October 18 gameplay guides describe a seasonal entry by the spawn hub. Inspect your current in-game labels; this site has no freshly verified compass route."
+      },
+      {
+        "question": "Does the Hall Lord appear every hour?",
+        "answer": "A walkthrough discusses timed boss appearances, but an exact current schedule has not been independently verified by this site."
+      },
+      {
+        "question": "Do all normal eggs hatch Halloween secrets?",
+        "answer": "An October 18 walkthrough reports crossover seasonal secrets. Use the current egg-preview UI to check the pool; do not assume guaranteed odds."
+      },
+      {
+        "question": "When will Candy Corn stop being useful?",
+        "answer": "It is reported as event currency. A developer-confirmed exact shop cutoff was not independently verified, so check the in-game event/shop timer."
+      }
+    ],
+    "relatedSlugs": [
+      "how-to-get-candy-corn",
+      "codes",
+      "volcano-island",
+      "trading-status"
+    ]
+  },
+  {
+    "enabled": true,
+    "navVisible": true,
+    "screenshots": [],
+    "lastReviewed": "2026-10-19",
+    "slug": "how-to-get-candy-corn",
+    "navLabel": "Candy Corn",
+    "title": "How to Get Candy Corn in Tap Simulator Reborn",
+    "description": "Learn how to get Candy Corn in Tap Simulator Reborn with trick-or-treat routes, quests, boss rewards and Halloween shop priorities based on current evidence.",
+    "pageType": "guide",
+    "hero": {
+      "eyebrow": "Tap Simulator: Reborn • October 2026",
+      "heading": "How to Get Candy Corn in Tap Simulator Reborn",
+      "lead": "October 18 Halloween walkthroughs report Candy Corn from trick-or-treat activities, Candy Witch tasks, Hall Lord participation and two event codes. Start by checking which activity pays on your server; no verified Candy Corn-per-minute rate or current shop price is claimed here."
+    },
+    "sections": [
+      {
+        "id": "candy-sources",
+        "heading": "Every Confirmed or Reported Candy Corn Source",
+        "intro": "Four candidate sources appear in October 18 guide coverage. None has a current server-level payout measured by this website.",
+        "paragraphs": [
+          "Candy Corn is treated as Halloween event currency in the October 18 Update 1 coverage. Its in-game balance, use and item prices should be checked in your current Roblox experience. This is not the same as the permanent Coins earned by tapping, nor is it automatically exchangeable for Gems.",
+          "Trick-or-treat houses, Candy Witch tasks and a boss are different activities with different potential requirements. Third-party guides describe each, but published claims alone cannot tell you which method is repeatable or most profitable for your character in the current version.",
+          "The two event codes spooky and BOO! are also reported to provide Candy Corn. They are one-time code candidates, not necessarily repeatable farm methods. A player who already redeemed a string cannot responsibly extrapolate that reward into a continuous hourly rate.",
+          "Begin with a balance snapshot before any run. Record the visible activity name and any explicit cooldown or entry fee. Only compare rewards after you actually receive them; the game could change values during the event."
+        ],
+        "table": {
+          "caption": "Reported Candy Corn sources and verification checklist",
+          "columns": [
+            "Method",
+            "Published lead",
+            "Check in your server",
+            "Current measured rate"
+          ],
+          "rows": [
+            [
+              "Trick-or-treat",
+              "Interact with Halloween houses",
+              "House availability, return interval, balance change",
+              "Not measured"
+            ],
+            [
+              "Candy Witch",
+              "Take NPC event quests",
+              "Quest text, reset notice, claimed reward",
+              "Not measured"
+            ],
+            [
+              "Hall Lord",
+              "Participate in reported boss",
+              "Encounter UI, contribution, reward record",
+              "Not measured"
+            ],
+            [
+              "Halloween codes",
+              "spooky and BOO! reported",
+              "Settings → Codes; redemption response",
+              "One-time candidate, not a farm"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "halloween-event",
+            "label": "Halloween Event overview",
+            "description": "Check entry to the seasonal area"
+          },
+          {
+            "slug": "codes",
+            "label": "Codes and reported rewards",
+            "description": "Exact code strings and status labels"
+          }
+        ]
+      },
+      {
+        "id": "trick-or-treat",
+        "heading": "Fast Trick-or-Treat Route",
+        "intro": "The practical first step is to test a repeatable route, not to accept an unmeasured 'fastest' claim.",
+        "paragraphs": [
+          "October 18 reporting describes Halloween trick-or-treat interactions around houses. We cannot identify a verified house-by-house map order from the available material. Rather than supplying fictional directions, the route below tells you exactly what to measure in your version and lets you create an effective loop without hidden assumptions.",
+          "On entering the active event area, identify one interactable house and note your balance. Visit other visibly marked houses that you can reach without a long detour. Track the order yourself as A, B, C and so on; these are your own labels, not claims about an official map layout.",
+          "After the last reachable house, return to the first one. If it can be used again, note how much time passed; if it cannot, record whether the game displays a timer or a 'claimed' state. This distinction determines whether you have a repeatable farm or only a collection route.",
+          "If an interaction grants no visible currency, verify the transaction UI or inventory rather than counting it as a payout. A reward may be limited by account state, house, quest, event progress or build. Do not invent a backpack cap or house refresh rule without game evidence."
+        ],
+        "steps": [
+          {
+            "heading": "Start at the active Halloween hub",
+            "description": "Find the seasonal area inside the current Reborn experience; if the entry is missing, inspect announcements before following an older map."
+          },
+          {
+            "heading": "Write down starting Candy Corn",
+            "description": "Use the balance before visiting houses, and avoid redeeming codes during the same measurement."
+          },
+          {
+            "heading": "Visit each currently interactable house once",
+            "description": "Record the physical order and the results. Give houses simple local labels on your own map."
+          },
+          {
+            "heading": "Return to the first house",
+            "description": "Check for repeatability and any visible cooldown. Record the time required for the whole circuit."
+          },
+          {
+            "heading": "Repeat only if the interface permits it",
+            "description": "A measured loop requires a second run under the same conditions; don't infer repeated rewards from a first visit."
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "When to change your route",
+            "paragraphs": [
+              "A route becomes inefficient when most houses are unavailable on return, traversal takes longer than the reward is worth, or a quest offers an easier objective. Those are observation criteria, not a specific map position or unsupported timed respawn claim.",
+              "If you play with friends, use the current game's visible sharing or participation rules rather than assuming a video from another server proves a multiplayer bonus."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "witch-quests",
+        "heading": "Candy Witch Quests and Reset Rules",
+        "intro": "Published event coverage mentions a Candy Witch NPC with quests; exact quest rotations require the live task panel.",
+        "paragraphs": [
+          "Look for the NPC or its label after you have entered the Halloween area. If you find a quest, read the full text, objective and reward before accepting. A repeatable quest may be worth more attention than a house route, but that depends on how quickly your character can complete it.",
+          "The currently available public research does not prove a universal quest count, daily reset hour or constant Candy Corn reward. It is better to inspect the timer in your server than to report 'resets every 24 hours' without a game screenshot.",
+          "For a usable comparison, distinguish time waiting for a reset from active play time. If a quest requires a boss, it may be dependent on boss availability rather than your tapping efficiency. If it requires collecting items, count travel and return time in your estimate.",
+          "Do not abandon a nearly completed quest merely because a different website highlights a newer method. A short task with a known visible reward is often easier to evaluate than an unverified farming trick."
+        ],
+        "subsections": [
+          {
+            "heading": "A simple quest record",
+            "paragraphs": [
+              "Write down the quest name exactly as shown, the game date and server region if relevant, the visible objective, starting and ending Candy Corn, and whether the quest can be taken again. That record can support a future verified guide without publishing any private account details.",
+              "If the NPC moves or the task list changes with a patch, record the change rather than silently keeping the previous directions."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hall-lord",
+        "heading": "Hall Lord and Candy Corn Rewards",
+        "intro": "The Hall Lord boss is described in an October 18 recorded-walkthrough guide, including a possible damage-based bonus.",
+        "paragraphs": [
+          "Boss events create a different kind of opportunity from house loops. You may spend time waiting for an encounter, travel to it, and contribute damage before receiving any Candy Corn. All of those minutes belong in a fair method comparison.",
+          "The source describes extra rewards for high damage placement, but this site has not confirmed that exact rule in a fresh server. Avoid assuming Top 3 rewards, a fixed spawn time or a precise number of Candy Corn unless those details appear on your screen.",
+          "When a fight starts, record the timestamp and the UI message about participation or reward requirements. After the fight, record the balance change and whether a bonus applied. A failed or missed fight is still relevant when estimating how reliable the route is for your character.",
+          "If your pet team cannot participate effectively, do not spend the entire event window waiting for an uncertain bonus. Complete accessible tasks while watching for a genuinely visible encounter indicator."
+        ],
+        "subsections": [
+          {
+            "heading": "What changes the result",
+            "paragraphs": [
+              "Damage contribution, the presence of other players, server load and temporary boosts can affect a boss attempt. Don't compare a boosted run with an unboosted house circuit as though both came from identical conditions."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "efficiency",
+        "heading": "Candy Corn per Minute: A Reproducible Comparison",
+        "intro": "A useful farm recommendation requires a measured result, not a numerical guess.",
+        "paragraphs": [
+          "Calculate Candy Corn per minute as the amount of Candy Corn you actually earned divided by elapsed minutes. Include travel, quest hand-in and waiting when those steps are required to repeat the method. For example, if your own recorded attempt earned 60 Candy Corn in 4 minutes, your observed rate would be 15 per minute. That number is purely a math illustration, not a claimed in-game payout.",
+          "For repeatable activities, make at least two or three comparable runs. Note whether a code was redeemed during the test, because a one-time code will distort a farm estimate. Record the game version/date and boosts so you can distinguish a patch change from a new strategy.",
+          "The values in the template below are intentionally empty rather than invented. After collecting real observations, you can rank methods by median or range instead of claiming the single best run is the permanent maximum.",
+          "Do not publish 'per hour' earnings from one lucky boss reward. Multiply by 60 only after you have a defensible per-minute estimate that includes the time a player must actually wait for the method to repeat."
+        ],
+        "table": {
+          "caption": "Fill in actual observations; no game payouts are assumed",
+          "columns": [
+            "Run",
+            "Method",
+            "Minutes elapsed",
+            "Candy earned",
+            "Candy/min",
+            "Date / boosts"
+          ],
+          "rows": [
+            [
+              "1",
+              "Trick-or-treat loop",
+              "Record",
+              "Record",
+              "earned ÷ minutes",
+              "Record"
+            ],
+            [
+              "2",
+              "Candy Witch quest",
+              "Record",
+              "Record",
+              "earned ÷ minutes",
+              "Record"
+            ],
+            [
+              "3",
+              "Boss attempt",
+              "Include waiting",
+              "Record",
+              "earned ÷ minutes",
+              "Record"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Make the comparison fair",
+            "paragraphs": [
+              "Start each run from a consistent place with the same boost state, if possible. For quests with long resets, label them one-time or periodic rather than placing them next to unlimited methods without context.",
+              "A player with stronger pets may prefer a boss while a fresh player may prefer reachable houses. A good route helps the player decide using their own progress rather than a fabricated global 'best' ranking."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shop",
+        "heading": "What to Buy in the Halloween Shop",
+        "intro": "Spending priorities depend on the actual item list, prices and expiry display in your current build.",
+        "paragraphs": [
+          "The October walkthrough describes an event shop using Candy Corn. However, this site does not have a verified image of the current store showing all prices and deadlines. We do not recommend a made-up cheapest pet or a specific purchase threshold.",
+          "Start by comparing items that are permanently useful to your account with cosmetics and temporary consumables. The right decision changes with your play goals: a collector may prefer a limited appearance, while a player trying to unlock the next island may value a practical boost.",
+          "Check whether the shop shows a purchase limit, timer or required stage before committing your currency. A clock in an external Roblox event calendar does not necessarily equal the game's real in-shop cutoff.",
+          "Leave enough currency for any goal you can actually see rather than hoarding based on an assumed conversion to Coins. Guides describe Candy Corn as event currency, and no current official conversion rule was verified in the source review."
+        ],
+        "table": {
+          "caption": "Shop decision checklist",
+          "columns": [
+            "Before purchasing",
+            "What to inspect"
+          ],
+          "rows": [
+            [
+              "Price",
+              "Current Candy Corn total and exact in-game item cost"
+            ],
+            [
+              "Utility",
+              "Preview or description of the actual benefit"
+            ],
+            [
+              "Availability",
+              "Visible stock, limit or timer, if supplied by game"
+            ],
+            [
+              "Priority",
+              "Whether the item supports your immediate plan or collection goal"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "halloween-event",
+            "label": "Halloween Event guide",
+            "description": "Find the event area and activity context"
+          }
+        ]
+      },
+      {
+        "id": "candy-faq",
+        "heading": "Candy Corn FAQ",
+        "intro": "Use current in-game values as the deciding evidence whenever the seasonal rules change.",
+        "paragraphs": [
+          "October 19 source review: the four candidate sources above come from October 18 game guides and code reports, not direct on-server tests conducted by this website. That distinction is particularly important for the questions players ask about fastest methods and exact shop costs.",
+          "SOURCE: RoboLibrary Halloween walkthrough | https://robolibrary.org/guides/tap-simulator-reborn-update-1-halloween-guide",
+          "SOURCE: UrGameTips Halloween codes report | https://urgametips.com/tap-simulator-reborn-codes/",
+          "SOURCE: Official Roblox experience | https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN"
+        ],
+        "subsections": [
+          {
+            "heading": "How this guide can stay accurate",
+            "paragraphs": [
+              "The most useful updates are dated in-game observations: a visible task reward, a documented cooldown, or a before-and-after currency screenshot. If those do not exist, this page retains the route measurement method rather than turning third-party reports into fact."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How can I get Candy Corn in Tap Simulator Reborn?",
+        "answer": "October 18 guides report trick-or-treat houses, Candy Witch quests, Hall Lord rewards and Halloween code rewards. Check which methods are visible in the current event."
+      },
+      {
+        "question": "What is the fastest Candy Corn farm?",
+        "answer": "There is no independently measured current fastest method on this site. Time repeatable attempts and divide actual currency earned by minutes elapsed."
+      },
+      {
+        "question": "Can I farm Candy Corn repeatedly from a code?",
+        "answer": "Codes are reported as redeemable rewards, not unlimited repeated farming. Follow the current code response and account limits."
+      },
+      {
+        "question": "Do Candy Witch tasks reset daily?",
+        "answer": "A rotating quest mechanic is reported, but a specific current reset period was not verified. Read the timer in the in-game quest panel."
+      },
+      {
+        "question": "Does Candy Corn convert into normal Coins?",
+        "answer": "No verified conversion mechanism is documented here; the published guides describe it as Halloween shop currency."
+      },
+      {
+        "question": "How do I know what to buy?",
+        "answer": "Compare live item prices, effects and the shop timer against your own event goal before spending."
+      }
+    ],
+    "relatedSlugs": [
+      "halloween-event",
+      "codes"
+    ]
+  },
+  {
+    "enabled": true,
+    "navVisible": true,
+    "screenshots": [],
+    "lastReviewed": "2026-10-19",
+    "slug": "volcano-island",
+    "navLabel": "Volcano Island",
+    "title": "Tap Simulator Reborn Volcano Island & New Eggs Guide",
+    "description": "Find Volcano Island in Tap Simulator Reborn, check the portal route, Volcanic Egg, Draconic Egg and reported new pets, with current unlock details.",
+    "pageType": "guide",
+    "hero": {
+      "eyebrow": "Tap Simulator: Reborn • October 2026",
+      "heading": "Tap Simulator Reborn Volcano Island Guide",
+      "lead": "Update 1 walkthroughs from October 18 report Volcano Island as a new progression area with Volcanic Egg and Draconic Egg stations. Exact portal cost, current egg prices and pet odds are not independently verified here; use the route and comparison below to inspect the live game."
+    },
+    "sections": [
+      {
+        "id": "unlock-volcano",
+        "heading": "How to Unlock Volcano Island",
+        "intro": "The new island appears in third-party October 17 Update 1 gameplay coverage. The live unlock requirement must be read inside Reborn.",
+        "paragraphs": [
+          "First open the correct Roblox experience using place ID 72858262610964 and your existing island progression. Look for the currently available island travel controls or the portal network. Older maps may end before Volcano Island and must not be used as proof of today's unlock requirement.",
+          "If the area appears locked, read the exact in-game prompt before spending. It might show a currency amount or another prerequisite; neither has been confirmed with a same-build screenshot for this site. We therefore avoid inventing a fixed Coin threshold or borrowing an older island cost.",
+          "The safest route is to open your island list, identify the newly labeled area, inspect the prompt and confirm what you have already unlocked. If you cannot see it, check whether your server has the relevant Update 1 build and whether the island list continues beyond your current progression.",
+          "A player's most efficient decision is influenced by pets, boosts, Rebirth progression and the price visible in their own game. The newest island is a destination, not evidence that every player should skip all earlier upgrades."
+        ],
+        "steps": [
+          {
+            "heading": "Verify the experience",
+            "description": "Confirm the official Roblox game is Tap Simulator: Reborn by Cursor Makers, not a similarly named simulator."
+          },
+          {
+            "heading": "Find the island travel interface",
+            "description": "Inspect visible portal labels or the island menu for Volcano Island in the current game."
+          },
+          {
+            "heading": "Read the unlock requirement",
+            "description": "Record the actual on-screen cost or prerequisite. Do not substitute values from pre-Update 1 guides."
+          },
+          {
+            "heading": "Open the area and check its stations",
+            "description": "Once unlocked, find the Volcanic Egg and Draconic Egg prompts described in published Update 1 coverage."
+          }
+        ],
+        "subsections": [
+          {
+            "heading": "What if the portal is missing?",
+            "paragraphs": [
+              "Check whether your chosen Roblox server reflects the latest update, then inspect the game's announcements. Absence of a portal in an older recording or a different island menu is not enough to conclude the current area has been removed.",
+              "The exact path within the map is left to the in-game labels until a properly dated gameplay capture can establish stable navigation landmarks."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "volcano-map",
+        "heading": "Volcano Island Map and Routes",
+        "intro": "The source material identifies a new island and two egg stations, but does not provide a verified current coordinate map.",
+        "paragraphs": [
+          "Treat the island's own visual signposts as the map. Once inside, locate the egg prompts and note which is nearer your entrance point. If you plan to return repeatedly, identify the game's current quick-travel or portal option rather than re-running a route from an old video.",
+          "The October walkthrough mentions additional volcanic scenery and potential resource interactions, but no precise magma-rock earning mechanism has been independently established in this review. Do not assume that a decorative object necessarily awards a currency.",
+          "For your own reference, note three landmarks: the portal/arrival point, the Volcanic Egg stand and the Draconic Egg stand. This small set is sufficient to make a repeatable navigation route even without a large speculative map.",
+          "If the two stations appear in a different order after an update, their names and displayed interaction panels are more reliable than compass directions. Record the server build or date whenever sharing an updated route."
+        ],
+        "table": {
+          "caption": "Three-point route check; verify labels in the current game",
+          "columns": [
+            "Landmark",
+            "What to look for",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Arrival point",
+              "Active portal, transport menu or zone name",
+              "Repeatable return to the island"
+            ],
+            [
+              "Volcanic Egg",
+              "Prompt with egg name and visible cost",
+              "One hatch pool to compare"
+            ],
+            [
+              "Draconic Egg",
+              "Separate named hatch station and visible cost",
+              "Second pool with potentially different pets"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "eggs-compare",
+        "heading": "Volcanic Egg vs Draconic Egg",
+        "intro": "October 18 Update 1 coverage names two Volcano Island egg stations. Names alone do not verify odds or prices.",
+        "paragraphs": [
+          "Read each hatch interface separately before buying. The price, possible pet icons, rarity labels, odds if supplied and any bonus effects all contribute to the comparison. Some guides publish impressive secret-pet claims without proving the same numbers appear in the current version.",
+          "If the game exposes a preview, make a note of the exact pet names and any percentages. Do not infer a 1-in-N chance from the number of hatches another player attempted. Random drops require many observations and cannot be reverse-engineered from a single video.",
+          "A newer egg could have better nominal pets but be far more expensive to hatch. A practical comparison asks what a player can afford repeatedly, which pets actually replace their existing team, and whether savings for an island unlock would yield more immediate progress.",
+          "We intentionally provide a verification-ready matrix rather than a fabricated full egg catalog. When current screenshots become available the cells can be filled with real figures and dates; until then, 'not independently verified' is more informative than false precision."
+        ],
+        "table": {
+          "caption": "Current fact-check matrix for the two reported egg stands",
+          "columns": [
+            "Feature",
+            "Volcanic Egg",
+            "Draconic Egg"
+          ],
+          "rows": [
+            [
+              "Reported in Update 1",
+              "Yes — Oct 18 guide",
+              "Yes — Oct 18 guide"
+            ],
+            [
+              "Current station cost",
+              "Not independently verified",
+              "Not independently verified"
+            ],
+            [
+              "Official published hatch odds",
+              "Not verified in reviewed sources",
+              "Not verified in reviewed sources"
+            ],
+            [
+              "Full pet pool",
+              "Check actual egg preview",
+              "Check actual egg preview"
+            ],
+            [
+              "Best use",
+              "Compare against your current team",
+              "Compare against your current team"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "How to compare value without made-up drop rates",
+            "paragraphs": [
+              "Write down the cost of ten hatches only if you can afford them, then record each outcome and whether it improves your strongest equipped team. Ten hatches are not enough to estimate rare odds reliably, but they can help you judge whether the station is useful for immediate progression.",
+              "If an egg preview shows a possible secret pet, distinguish its inclusion from proof you can hatch it quickly. Guide writers should not turn a possible drop into a guaranteed reward."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "draconic",
+        "heading": "Draconic Egg and Volcanic Devil",
+        "intro": "The October 18 event guide associates the Draconic area with additional pet content; confirm actual pet names in your egg UI.",
+        "paragraphs": [
+          "Some published material mentions a Volcanic Devil alongside Volcano Island additions. That should be treated as a reported name until the relevant current build shows the pet or a reliable first-hand image. We do not state it as a guaranteed Draconic Egg hatch.",
+          "If you are trying to locate one specific pet, identify its source in the on-screen preview or a current developer announcement before investing all your Coins. Egg station names and pet appearance alone are insufficient to prove which pool contains a specific secret.",
+          "Track the date of any discovered pet name. After a patch, drops can move or names can be revised without older guides being updated, which is why a source-specific label is more useful than a static universal tier list."
+        ],
+        "subsections": [
+          {
+            "heading": "A reliable screenshot checklist",
+            "paragraphs": [
+              "A useful evidence capture would show the game's title or menu, the exact station name, visible pet preview and on-screen cost. It should not expose a private chat or another player's account details. None of those captures is claimed as our own on this page."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "coins",
+        "heading": "Best Use of Coins After Update 1",
+        "intro": "The right investment depends on your next unlock and actual upgrade prices, not only the newest patch label.",
+        "paragraphs": [
+          "If your current team has weak pets, a small number of affordable earlier hatches may improve tapping more than saving for an inaccessible island. If your team already makes the next unlock affordable, opening Volcano Island may expose useful options. Those are conditional decisions, not promises about hidden game multipliers.",
+          "Before a spending session, list the visible cost to unlock Volcano Island, the price of each egg you can reach, and the cost or benefit of your next Rebirth. Use the same measurement period for earning Coins, so short temporary boosts do not distort your decision.",
+          "You can then set a simple order: first verify whether you are eligible to unlock the zone, then decide whether you need more earning power, then purchase only the hatches or upgrades that meet that goal. The point of a guide is to help you reason using game facts rather than supply false numbers.",
+          "Halloween Candy Corn is a separate event loop. Unless the current game expressly allows exchanging it for an island unlock, do not assume that completing a seasonal quest directly pays for the Volcano portal."
+        ],
+        "subsections": [
+          {
+            "heading": "When to stop hatching",
+            "paragraphs": [
+              "Set a Coin budget before opening eggs. If you reach that budget with no improvement to your currently equipped team, reconsider an upgrade or island objective rather than continuously chasing a rare drop based on an unverified chance.",
+              "This is budgeting advice, not a claim about exact Rebirth effects or pet rankings in the latest build."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "slug": "halloween-event",
+            "label": "Update 1 overview",
+            "description": "Understand the separate seasonal content"
+          },
+          {
+            "slug": "",
+            "label": "Tap Simulator Reborn wiki",
+            "description": "Return to the game's main guide"
+          }
+        ]
+      },
+      {
+        "id": "volcano-sources",
+        "heading": "Volcano Island FAQ and Update Record",
+        "intro": "Evidence review date: October 19, 2026. Gameplay-source report dated October 18; no first-hand portal or hatch receipt is claimed.",
+        "paragraphs": [
+          "The Roblox October 17 event entry confirms an island-related update. Independent October 18 reporting supplies the Volcano Island name and two egg-station labels. Unlock fees, current odds, route landmarks and complete pet drops remain unverified and are intentionally not presented as certain numbers.",
+          "A future update can replace the question-mark cells only after a dated current-build record. A video or screenshot should show the actual prompt, game identity and visible cost; a different game's egg list is never an acceptable source.",
+          "SOURCE: Official Roblox listing | https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN",
+          "SOURCE: RoboLibrary October 18 Update 1 guide | https://robolibrary.org/guides/tap-simulator-reborn-update-1-halloween-guide"
+        ],
+        "links": [
+          {
+            "slug": "trading-status",
+            "label": "Trading Status",
+            "description": "Check related new-feature reports"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I get to Volcano Island?",
+        "answer": "Look for Volcano Island in the current Reborn island travel interface or portal network and read its actual unlock prompt. No current numeric cost is independently verified here."
+      },
+      {
+        "question": "Is Volcano Island a Halloween-only zone?",
+        "answer": "October 18 walkthroughs describe it as permanent progression content, separate from seasonal Halloween activities."
+      },
+      {
+        "question": "Which new eggs are on the island?",
+        "answer": "Third-party Update 1 coverage names Volcanic Egg and Draconic Egg. Check their current station menus for costs and pet previews."
+      },
+      {
+        "question": "What are the Draconic Egg secret odds?",
+        "answer": "No current odds have been independently verified from an in-game preview or developer publication in this review."
+      },
+      {
+        "question": "Does a code unlock Volcano Island?",
+        "answer": "No reliable claim that the reported Halloween codes directly unlock this area was established; use the game's visible normal unlock mechanics."
+      },
+      {
+        "question": "Can I trade the new pets?",
+        "answer": "Trading availability is disputed across sources, and you should verify the current Trade UI before arranging a swap."
+      }
+    ],
+    "relatedSlugs": [
+      "halloween-event",
+      "trading-status"
+    ]
+  },
+  {
+    "enabled": true,
+    "navVisible": true,
+    "screenshots": [],
+    "lastReviewed": "2026-10-19",
+    "slug": "trading-status",
+    "navLabel": "Trading Status",
+    "title": "Tap Simulator Reborn Trading Status – Is Trading Live?",
+    "description": "Is trading available in Tap Simulator Reborn? See dated Update 1 status reports, how to check trading in-game and safer pet-trading steps.",
+    "pageType": "updates",
+    "hero": {
+      "eyebrow": "Tap Simulator: Reborn • October 2026",
+      "heading": "Tap Simulator Reborn Trading Status",
+      "lead": "Trading status is disputed as of this October 19, 2026 source review. Some older Roblox listing snapshots say 'coming soon'; October 18 sites report that trading opened, while another reports a temporary closure. Only your current in-game Trade interface can establish availability in your server."
+    },
+    "sections": [
+      {
+        "id": "right-now",
+        "heading": "Is Trading Available Right Now?",
+        "intro": "Answer for this source review: not independently confirmed. Do not treat an old 'live' or 'coming soon' headline as a real-time server check.",
+        "paragraphs": [
+          "Trading is a feature that may vary after an update or temporary disablement. The publicly retrieved Roblox description still includes a 'Trading coming soon' line in some cached captures, despite October 18 guides that describe the ability to trade. A separate October 18 report says the feature was switched off again.",
+          "This site has not logged into a current October 19 Roblox server and sent a successful trade request. Therefore it does not claim trading is universally enabled or disabled at this moment. The dated chronology below explains why sources disagree and helps you make an immediate check yourself.",
+          "Open the correct Reborn place and find the game UI's trade-related control, if present. A visible icon by itself does not prove a transaction can be completed. Confirm whether you can open a legitimate request panel without an error or disable notice.",
+          "If an interface says trading is unavailable, follow that immediate result over an outdated article. If you can send a request, it only establishes that this feature appears available in that server and account state; it does not establish identical availability for everyone."
+        ],
+        "table": {
+          "caption": "Status evidence as of the October 19 source review",
+          "columns": [
+            "Source",
+            "Date or version",
+            "What it says",
+            "Interpretation"
+          ],
+          "rows": [
+            [
+              "Roblox listing caches",
+              "Pre-/around Update 1",
+              "Trading coming soon",
+              "Historical or cached wording, not live test"
+            ],
+            [
+              "October 18 update guides",
+              "Oct 18",
+              "Trading included with Update 1",
+              "Published report, not our server verification"
+            ],
+            [
+              "October 18 trading-status guide",
+              "Oct 18",
+              "Trading temporarily disabled",
+              "Published conflicting report"
+            ],
+            [
+              "This independent guide",
+              "Oct 19",
+              "No in-game test available",
+              "Current all-server status unconfirmed"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "timeline",
+        "heading": "Trading Update 1 Timeline",
+        "intro": "Use the date and source type of each observation instead of reducing a contested rollout to a single permanent claim.",
+        "paragraphs": [
+          "Before the October 17 update, several guide pages and retrieved official descriptions said trading was coming soon. That wording correctly describes what a reader of that snapshot saw, but may no longer reflect later builds.",
+          "On October 17, the Roblox event listing announced Update 1. Some publishers subsequently described trading as newly introduced. Their descriptions show that the feature was at least discussed as part of the patch, not necessarily that all servers have a working exchange today.",
+          "On October 18, a dedicated trading-status article reported a temporary shutdown associated with a duplication concern. The alleged reason was not independently confirmed from the current developer team in our source review, so the shutdown report is attributed and does not become our own factual assertion.",
+          "On October 19, this page compared the conflicting public records but did not execute a trade. The only defensible current answer here is that live availability needs an in-game check. If a verified developer status message becomes available, this dated record should be updated without overwriting the historical observations."
+        ],
+        "table": {
+          "caption": "Evidence chronology, not a claim of present uptime",
+          "columns": [
+            "When",
+            "Source type",
+            "Claim",
+            "What is still unknown"
+          ],
+          "rows": [
+            [
+              "Before Oct 17",
+              "Roblox listing / older guides",
+              "Trading coming soon",
+              "Whether listing text was updated after rollout"
+            ],
+            [
+              "Oct 17",
+              "Roblox event listing",
+              "Update 1 announced",
+              "Exact trading deployment time"
+            ],
+            [
+              "Oct 18",
+              "Third-party update guides",
+              "Trading introduced",
+              "All-server availability or persistence"
+            ],
+            [
+              "Oct 18",
+              "Third-party trading-status report",
+              "Temporary disablement reported",
+              "Developer-confirmed cause/reopening"
+            ],
+            [
+              "Oct 19",
+              "This source review",
+              "Conflicting evidence recorded",
+              "Fresh successful on-server request"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "check-button",
+        "heading": "How to Check the Trade Button",
+        "intro": "The current game interface, not a copied screenshot from Legacy Tap Simulator, is your best immediate reference.",
+        "paragraphs": [
+          "Join the official Roblox game and confirm its title and publisher. Look through the main game menu for a Trade-related control or player-interaction option. Published guides do not provide enough consistent fresh UI evidence for this site to assert a fixed button position.",
+          "If you find a control, inspect whether it opens the intended trade panel or instead shows a temporary-disable notice. Only proceed if the other participant has agreed and the game supplies its own protected exchange interface.",
+          "A gray button or a 'coming soon' label is an actionable result for your account but not proof about other servers. A feature can be limited by update state, account permissions or an active rollback. Do not try to bypass such restrictions using scripts or browser extensions.",
+          "If the control is missing altogether, do not assume pet trading must be performed through an external site. Third-party trading portals and unsolicited Discord links are common sources of account risk."
+        ],
+        "steps": [
+          {
+            "heading": "Enter the correct Roblox place",
+            "description": "Use place 72858262610964 by Cursor Makers; original Tap Simulator may display different controls."
+          },
+          {
+            "heading": "Inspect actual game menus",
+            "description": "Look for a clearly labeled trade function without guessing its screen coordinates."
+          },
+          {
+            "heading": "Check whether a request can open",
+            "description": "A working interface is stronger evidence than an old article, but do not pressure another player into testing."
+          },
+          {
+            "heading": "Read any official disable message",
+            "description": "A temporary notice should be followed for your account and server. Do not use off-platform scripts to avoid it."
+          },
+          {
+            "heading": "Record the date before sharing status",
+            "description": "A report without the observed date, Roblox place and server context becomes stale quickly."
+          }
+        ]
+      },
+      {
+        "id": "trade-safely",
+        "heading": "How to Trade Pets Safely",
+        "intro": "A feature becoming available does not make every proposed exchange safe.",
+        "paragraphs": [
+          "Before accepting an offer, read the other player's Roblox username carefully and confirm that you are negotiating with the intended person. Similar display names can be used for impersonation. Do not send your Roblox password, email one-time code or recovery token to demonstrate that you own a pet.",
+          "Review the full pet identity and any available rarity or variant labels in the actual interface. Verify what you are giving and receiving at the final confirmation step. If the game does not present a second confirmation, pause to read what is visible before continuing.",
+          "External value sheets and communities can be helpful reference points but cannot guarantee a fair or reversible trade. A listing with no real sale evidence should not be treated as a cash price or binding demand index.",
+          "Avoid offers requiring an off-platform login, a middleman holding your pets, Robux sent outside the game or downloaded automation to 'fix' disabled trading. If any item changes unexpectedly during confirmation, cancel rather than rushing.",
+          "If you have a concern about a suspicious player or exploit, use the game's own reporting or Roblox support resources. This wiki does not operate a pet marketplace, escrow service or verification bot."
+        ],
+        "table": {
+          "caption": "Safety checklist before any in-game exchange",
+          "columns": [
+            "Check",
+            "Practical action"
+          ],
+          "rows": [
+            [
+              "Correct player",
+              "Verify Roblox username, not display-name similarity alone"
+            ],
+            [
+              "Correct pet",
+              "Compare name, rarity, variant and amount if the UI provides them"
+            ],
+            [
+              "Actual confirmation",
+              "Re-check both sides immediately before accepting"
+            ],
+            [
+              "No off-site login",
+              "Never enter account credentials in a trade link"
+            ],
+            [
+              "No forced payment",
+              "Reject Robux/crypto/real-money middleman claims"
+            ],
+            [
+              "Unexpected change",
+              "Cancel and re-read the trade"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "pet-values",
+        "heading": "Pet Values and Trades",
+        "intro": "A pet value tool does not tell you whether the trading system is open right now.",
+        "paragraphs": [
+          "The independent tapsimreborn.com project hosts pet and value references. Those are third-party tools, not a guarantee that a market exists or that a particular number represents an actual accepted trade. The site's Trading page has displayed 'coming soon' in at least one source snapshot.",
+          "When the in-game trade system works, agree on an exchange based on what both players actually want. Check the pet itself, its usefulness to your current progression and the reliability of any price data before making a decision.",
+          "Value list entries can be stale during a new patch or seasonal event. Even an actively updated list cannot replace the live trade confirmation screen. This page therefore focuses on feature status and risk checks instead of building a duplicate speculative pet pricing database.",
+          "Never confuse 'pet value' with a right to transfer real-world funds or account ownership. Off-platform pet purchases are not part of our approved game guide."
+        ],
+        "subsections": [
+          {
+            "heading": "Why the database is a separate topic",
+            "paragraphs": [
+              "Players searching 'can I trade today?' need a current status and a safe verification procedure. Players searching for pet value are doing a different lookup task. Mixing these purposes into a single ranking table would make neither task clearer."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trading-questions",
+        "heading": "Trading Status FAQ and Source Notes",
+        "intro": "Reviewed October 19, 2026; the following links preserve the dated conflict instead of hiding it.",
+        "paragraphs": [
+          "No developer-confirmed reopening date or universal October 19 successful trade was established in the sources reviewed. A claim that duplication specifically caused a shutdown remains attributed to its reporting website until supported by an official notice.",
+          "This site is an independent Roblox guide and cannot process trades for visitors. Never enter your Roblox credentials or a two-factor code into this website or any supposed 'trade activation' form.",
+          "SOURCE: Official Roblox game listing | https://www.roblox.com/games/72858262610964/Tap-Simulator-REBORN",
+          "SOURCE: Oct 18 reported disablement | https://tapsimulatorreborn-roblox.wiki/updates/trading-status",
+          "SOURCE: Independent game update list | https://tapsimreborn.com/wiki/c/updates",
+          "SOURCE: Independent pet-reference database | https://tapsimreborn.com/wiki"
+        ],
+        "links": [
+          {
+            "slug": "halloween-event",
+            "label": "October Update 1",
+            "description": "See what else the update added"
+          },
+          {
+            "slug": "volcano-island",
+            "label": "Volcano Island",
+            "description": "New progression pets covered separately"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is trading open in Tap Simulator Reborn today?",
+        "answer": "Public records conflict. No successful October 19 trade was independently tested by this site; use the current in-game Trade interface as the immediate answer for your server."
+      },
+      {
+        "question": "Did Update 1 introduce trading?",
+        "answer": "October 18 update guides describe trading as part of Update 1, but older official listing text says coming soon and another guide reports a later disablement."
+      },
+      {
+        "question": "Was trading disabled because of duplication?",
+        "answer": "An October 18 third-party article reports this explanation. It was not verified from a current official developer announcement in this review."
+      },
+      {
+        "question": "When will trading be enabled again?",
+        "answer": "No developer-confirmed current reopening time was obtained. Check the game's official announcements and live UI."
+      },
+      {
+        "question": "Can I trade pets from the original Tap Simulator?",
+        "answer": "The original game is a different Roblox experience. Cross-game trade support is not documented here and must not be assumed."
+      },
+      {
+        "question": "Does this site facilitate pet trades?",
+        "answer": "No. It provides game-reference information only and never collects account logins or trade assets."
+      }
+    ],
+    "relatedSlugs": [
+      "halloween-event",
+      "volcano-island"
+    ]
+  }
+]
