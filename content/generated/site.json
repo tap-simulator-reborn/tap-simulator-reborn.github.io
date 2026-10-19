@@ -1,11 +1,11 @@
 {
-  "readyForLaunch": false,
-  "siteName": "Tap Simulator: Reborn Guide",
-  "shortName": "Tap Simulator: Reborn",
-  "description": "Tap Simulator: Reborn guides, walkthroughs, tips, updates, and reference information.",
+  "readyForLaunch": true,
+  "siteName": "Tap Simulator Reborn Wiki",
+  "shortName": "Tap Simulator Reborn",
+  "description": "Independent Tap Simulator Reborn Roblox wiki with October 2026 codes, Halloween, Candy Corn, Volcano Island and trading status guides.",
   "language": "en",
   "locale": "en_US",
-  "authorName": "Editorial Team",
+  "authorName": "Tap Simulator Reborn Wiki",
   "theme": {
     "preset": "obsidian-red",
     "overrides": {
@@ -54,11 +54,11 @@
   "game": {
     "name": "Tap Simulator: Reborn",
     "platform": "Roblox",
-    "developer": "",
-    "genre": "",
+    "developer": "Cursor Makers",
+    "genre": "Incremental Simulator",
     "officialUrl": "https://www.roblox.com/games/72858262610964"
   },
   "seo": {
-    "titleTemplate": "%s | Tap Simulator: Reborn Guide"
+    "titleTemplate": "%s"
   }
 }

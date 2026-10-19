@@ -13,9 +13,7 @@ export default function manifest(): MetadataRoute.Manifest {
     svg: "image/svg+xml", png: "image/png", jpg: "image/jpeg", jpeg: "image/jpeg",
     webp: "image/webp", gif: "image/gif", ico: "image/x-icon",
   };
-  const icon = siteConfig.theme.skin === "arcade-play"
-    ? { src: logoSrc, ...(imageTypes[extension] ? { type: imageTypes[extension] } : {}), ...(extension === "svg" ? { sizes: "any" } : {}) }
-    : { src: logoSrc, sizes: "any", type: "image/svg+xml" };
+  const icon = { src: logoSrc, ...(imageTypes[extension] ? {type:imageTypes[extension]} : {}), ...(extension === "svg" ? {sizes:"any"} : {}) };
   return {
     name: siteConfig.siteName,
     short_name: siteConfig.shortName,
