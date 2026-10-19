@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { CSSProperties, ReactNode } from "react";
 import { Analytics } from "@/components/integrations/analytics";
 import { SiteFooter } from "@/components/site/site-footer";
@@ -48,8 +49,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <SiteHeader links={navLinks} />
         <div id="main-content">{children}</div>
         {fixed ? <nav aria-label="Guide shortcuts" className="site-container flex flex-wrap gap-2 px-4 py-3 text-sm">
-          <a className="button-secondary" href="/">Home</a>
-          {navLinks.map(link => <a key={link.slug} className="button-secondary" href={`/${link.slug}/`}>{link.label}</a>)}
+          <Link className="button-secondary" href="/">Home</Link>
+          {navLinks.map(link => <Link key={link.slug} className="button-secondary" href={`/${link.slug}/`}>{link.label}</Link>)}
         </nav> : null}
         <SiteFooter coreLinks={navLinks} legalLinks={legalLinks} />
       </body>
