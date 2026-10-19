@@ -6,13 +6,9 @@ import { DataTable } from "./data-table";
 function SourceParagraph({ text }: { text: string }) {
   const match = /^SOURCE: ([^|]+) [|] (https:\/\/[^\s]+)$/.exec(text);
   if (!match) return <p>{text}</p>;
-  try {
-    const uri = new URL(match[2]);
-    if (uri.protocol !== "https:") return <p>{text}</p>;
-    return <p className="wiki-source"><span>Reference: </span><a href={uri.toString()} rel="noopener noreferrer" target="_blank">{match[1].trim()}</a></p>;
-  } catch {
-    return <p>{text}</p>;
-  }
+  const safeLink = URL.canParse(match[2]) ? new URL(match[2]) : null;
+  if (!safeLink || safeLink.protocol !== "https:") return <p>{text}</p>;
+  return <p className="wiki-source"><span>Reference: </span><a href={safeLink.href} rel="noopener noreferrer" target="_blank">{match[1].trim()}</a></p>;
 }
 
 
