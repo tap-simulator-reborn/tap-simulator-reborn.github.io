@@ -85,7 +85,7 @@ export const legalPages: SeoPageDefinition[] = [
       { id: "changes", heading: "Policy Changes", paragraphs: ["Update this page and its review date whenever the site's integrations or data practices change."] },
     ],
     relatedSlugs: ["terms", "contact"],
-    lastReviewed: "2026-01-15",
+    lastReviewed: "2026-11-01",
   },
   {
     enabled: true,
