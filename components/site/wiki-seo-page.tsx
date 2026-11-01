@@ -2,6 +2,7 @@ import { CalendarCheck2 } from "lucide-react";
 import { CopyCodes } from "./copy-codes";
 import Link from "next/link";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBanner } from "@/components/integrations/responsive-banner";
 import type { SeoPageDefinition } from "@/config/types";
 import { getRelatedPages, visibleCorePages } from "@/content/registry";
 import { pageSchemas } from "@/lib/schema";
@@ -39,7 +40,7 @@ export function WikiSeoPage({ page }: { page: SeoPageDefinition }) {
           </div>
         </section>
 
-        <div className="site-container"><NativeAdSlot /></div>
+        <div className="site-container"><ResponsiveBanner /></div>
 
         <div className="site-container wiki-page-body">
           {page.slug === "codes" ? (
@@ -84,7 +85,7 @@ export function WikiSeoPage({ page }: { page: SeoPageDefinition }) {
               </>
             )}
           >
-            <WikiPageSections sections={page.sections} />
+            <WikiPageSections sections={page.sections} afterFirst={<NativeAdSlot />} />
             {page.screenshots?.length ? (
               <section id="screenshots" className="scroll-mt-24">
                 <h2>Gameplay Screenshots</h2>
