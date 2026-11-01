@@ -1,3 +1,4 @@
+import { Fragment, type ReactNode } from "react";
 import Link from "next/link";
 import type { PageSection } from "@/config/types";
 import { routePath } from "@/lib/urls";
@@ -12,11 +13,12 @@ function SourceParagraph({ text }: { text: string }) {
 }
 
 
-export function WikiPageSections({ sections }: { sections: PageSection[] }) {
+export function WikiPageSections({ sections, afterFirst }: { sections: PageSection[]; afterFirst?: ReactNode }) {
   return (
     <div className="wiki-page-sections">
-      {sections.map((section) => (
-        <section id={section.id} key={section.id} className="scroll-mt-24">
+      {sections.map((section, index) => (
+        <Fragment key={section.id}>
+        <section id={section.id} className="scroll-mt-24">
           {section.eyebrow ? <p className="eyebrow">{section.eyebrow}</p> : null}
           <h2>{section.heading}</h2>
           {section.intro ? <p className="section-lead">{section.intro}</p> : null}
@@ -68,6 +70,8 @@ export function WikiPageSections({ sections }: { sections: PageSection[] }) {
             </ul>
           ) : null}
         </section>
+        {index === 0 ? afterFirst : null}
+        </Fragment>
       ))}
     </div>
   );

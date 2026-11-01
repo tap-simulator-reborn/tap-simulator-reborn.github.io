@@ -574,3 +574,28 @@ html[data-skin="wiki"] .wiki-quick-nav li+li { border-top: 1px solid hsl(var(--b
   html[data-skin="wiki"] .wiki-hero-cover img { height: 220px; }
   html[data-skin="wiki"] .wiki-hero-actions > a { width: 100%; justify-content: center; }
 }
+
+
+/* Adsterra placements: scoped additions; no changes to existing site layout. */
+.adsterra-banner { padding: .9rem 0 .6rem; text-align: center; }
+.adsterra-ad-label {
+  margin: 0 0 .4rem;
+  color: hsl(var(--muted-foreground));
+  font: 500 10px/1.4 var(--font-sans);
+  letter-spacing: .09em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.adsterra-banner-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 90px;
+  width: 100%;
+  overflow: hidden;
+}
+.adsterra-banner-frame iframe { display: block; max-width: 100%; border: 0; }
+.adsterra-native { min-width: 0; max-width: 100%; padding: .65rem 0; overflow-wrap: anywhere; }
+@media (max-width: 767px) {
+  .adsterra-banner-frame { min-height: 50px; }
+}
